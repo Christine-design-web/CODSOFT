@@ -1,0 +1,1 @@
+Import 'reacts' from react
