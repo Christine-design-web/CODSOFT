@@ -5,8 +5,6 @@ function App() {
   return (
     <>
     <h4 className='text-51 font-bold text-indigo-700 '>Home</h4>
-    
-
     </>
   )
 }
