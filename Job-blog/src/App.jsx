@@ -5,7 +5,9 @@ function App() {
 
   return (
     <>
+    <nav>Nav Bar</nav>
    <Outlet/>
+   <footer>Footer</footer>
     </>
   )
 }
