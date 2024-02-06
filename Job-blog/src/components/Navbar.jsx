@@ -1,7 +1,6 @@
 import React, {useState} from 'react'
 import { NavLink } from 'react-router-dom';
 
-
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const handleMenuToggler = () => {
@@ -22,7 +21,7 @@ const Navbar = () => {
         
         </a>
         {/* nav items for large devices */}
-        <ul>
+        <ul className="hidden md: flex gap-12">
           {
             navItems.map(({path, title}) => (
               <li key={path} className="text-base">

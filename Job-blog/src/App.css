@@ -17,6 +17,15 @@ body{
   color: #2196f3;
 } */
 
+/* App.css */
+.navbar {
+  background-color: #141414;
+  color: #ffffff;
+  
+}
+
+
+
 a {
   text-decoration: none;
   color: rgb(97, 97, 97);
