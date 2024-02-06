@@ -16,9 +16,9 @@ const Navbar = () => {
   return (
     <header>
       <nav>
-        <a href="/" className="flex items-center gap-2 text-2xl text-black">
-         <img src="./images/job logo.jpg" alt="Logo of myy website" className="size-20"></img>
-          <span>Job Portal</span>
+        <a href="/" className="flex items-center gap-0 text-2xl text-black">
+         <img src="./images/job logo.jpg" alt="Logo of my website" className="size-20"></img>
+          <span>Portal</span>
         
         </a>
         {/* nav items for large devices */}
