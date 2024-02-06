@@ -1,7 +1,8 @@
 // import React from "react"
 const Home = () => {
   return (
-    <div className="text-blue">Home Page</div>
+    <div className="bg-primary text-blue">Home Page</div>
+
   )
 }
 

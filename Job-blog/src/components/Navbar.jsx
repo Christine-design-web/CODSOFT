@@ -1,4 +1,6 @@
 import React, {useState} from 'react'
+import { NavLink } from 'react-router-dom';
+
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -23,7 +25,15 @@ const Navbar = () => {
         <ul>
           {
             navItems.map(({path, title}) => (
-              <li key={path}></li>
+              <li key={path} className="text-base">
+                <NavLink
+                    to={path}
+                    className={({ isActive }) => isActive ? "active" : ""
+                    }
+                  >
+                    {title}
+                  </NavLink>
+              </li>
             ) )
           }
         </ul>
