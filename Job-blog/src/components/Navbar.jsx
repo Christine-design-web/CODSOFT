@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <header>
       <nav>
-        <a href="/" className="flex items-center gap-4 text-4xl text-black">
+        <a href="/" className="flex items-center gap-2 text-2xl text-black">
           <span>Job Portal</span>
         
         </a>
