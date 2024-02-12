@@ -25,10 +25,11 @@ const Navbar = () => {
         <ul className="md: flex gap-12">
           {
             navItems.map(({path, title}) => (
-              <li key={path} className="text-base">
+              <li key={path} className="text-base text-primary">
                 <NavLink
                     to={path}
-                    className={({ isActive }) => isActive ? "active" : ""
+                    className={({ isActive }) => 
+                      isActive ? "active" : ""
                     }
                   >
                     {title}
@@ -38,6 +39,11 @@ const Navbar = () => {
           }
         </ul>
 
+{/* sign up and login button */}
+        <div className="text-base text-primary font-medium space-x-5 lg:block ">
+          <NavLink to="/login">Log in</NavLink> {/* Corrected: Use NavLink for navigation */}
+          <NavLink to="/sign-up">Sign Up</NavLink> {/* Corrected: Use NavLink for navigation */}
+        </div>
       </nav>
     </header>
   )
