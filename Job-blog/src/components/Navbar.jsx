@@ -43,6 +43,7 @@ const Navbar = () => {
         <div className="text-base text-primary font-medium space-x-5 lg:block ">
           <NavLink to="/login">Log in</NavLink> {/* Corrected: Use NavLink for navigation */}
           <NavLink to="/sign-up">Sign Up</NavLink> {/* Corrected: Use NavLink for navigation */}
+          
         </div>
       </nav>
     </header>
