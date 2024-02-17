@@ -14,8 +14,8 @@ const Navbar = () => {
     {path: "/post-job", title: "Post A Job"},
   ]
   return (
-    <header>
-      <nav>
+    <header className="max-w-screen-2xl container mx-auto xl:px-24 px-4">
+      <nav className='flex justify-between items-center'>
         <a href="/" className="flex items-center gap-0 text-2xl text-black">
          <img src="./images/job logo.jpg" alt="Logo of my website" className="size-20"></img>
           <span>Portal</span>
@@ -41,9 +41,13 @@ const Navbar = () => {
 
 {/* sign up and login button */}
         <div className="text-base text-primary font-medium space-x-5 lg:block ">
-          <NavLink to="/login"className="py-2 px-5 border rounded">Log in</NavLink> {/* Corrected: Use NavLink for navigation */}
-          <NavLink to="/sign-up" className="py-2 px-5 border rounded bg-green txt-white">Sign Up</NavLink> {/* Corrected: Use NavLink for navigation */}
+          <NavLink to="/login"className="py-2 px-5 border rounded bg-blue text-white">Log in</NavLink> {/* Corrected: Use NavLink for navigation */}
+          <NavLink to="/sign-up" className="py-2 px-5 border rounded bg-blue text-white">Sign Up</NavLink> {/* Corrected: Use NavLink for navigation */}
           
+        </div>
+        {/* mobile menu */}
+        <div>
+          <button></button>
         </div>
       </nav>
     </header>
