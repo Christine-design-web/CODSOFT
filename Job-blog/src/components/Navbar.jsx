@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import { NavLink } from 'react-router-dom';
+import { FaBarsStaggered } from "react-icons/fa6";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -47,7 +48,9 @@ const Navbar = () => {
         </div>
         {/* mobile menu */}
         <div>
-          <button></button>
+          <button>
+            <FaBarsStaggered/>
+          </button>
         </div>
       </nav>
     </header>
