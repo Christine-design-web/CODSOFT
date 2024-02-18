@@ -5,7 +5,7 @@ import { FaBarsStaggered, FaXmark } from "react-icons/fa6";
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const handleMenuToggler = () => {
-    setIsMenuOpen(isMenuOpen)
+    setIsMenuOpen(!isMenuOpen);
  
   };
   const navItems = [
@@ -57,24 +57,22 @@ const Navbar = () => {
       </nav>
 
       {/* navitems for mobile */}
-      <div>
-        <ul>
-          {
-            navItems.map(({path, title}) => (
-              <li key={path} className="text-base text-primary">
-                <NavLink
-                    to={path}
-                    className={({ isActive }) => 
-                      isActive? "active" : ""
-                    }
-                  >
-                    {title}
-                  </NavLink>
-              </li>
-            ) )
-          }
-        </ul>
-      </div>
+      <div className="md:hidden">
+  {isMenuOpen && (
+    <ul>
+      {navItems.map(({ path, title }) => (
+        <li key={path} className="text-base text-primary">
+          <NavLink
+            to={path}
+            className={({ isActive }) => (isActive ? "active" : "")}
+          >
+            {title}
+          </NavLink>
+        </li>
+      ))}
+    </ul>
+  )}
+</div>
     </header>
   )
 }
