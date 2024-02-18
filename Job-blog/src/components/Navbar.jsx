@@ -57,7 +57,7 @@ const Navbar = () => {
       </nav>
 
       {/* navitems for mobile */}
-      <div className="md:hidden">
+      <div className={"px-5 bg-black  rounded-sm"}>
   {isMenuOpen && (
     <ul>
       {navItems.map(({ path, title }) => (
