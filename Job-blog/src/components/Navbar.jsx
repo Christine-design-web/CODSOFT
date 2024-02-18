@@ -41,7 +41,7 @@ const Navbar = () => {
         </ul>
 
 {/* sign up and login button */}
-        <div className="text-base text-primary font-medium space-x-2 lg:block ">
+        <div className="text-base text-primary font-medium space-x-2 lg:block">
           <NavLink to="/login"className="py-2 px-5 border rounded bg-blue text-white">Log in</NavLink> {/* Corrected: Use NavLink for navigation */}
           <NavLink to="/sign-up" className="py-2 px-5 border rounded bg-blue text-white">Sign Up</NavLink> {/* Corrected: Use NavLink for navigation */}
           
@@ -57,8 +57,8 @@ const Navbar = () => {
       </nav>
 
       {/* navitems for mobile */}
-      <div className={"px-5 bg-black  rounded-sm"}>
-  {isMenuOpen && (
+      {isMenuOpen && (
+  <div className="px-5 bg-black rounded-sm">
     <ul>
       {navItems.map(({ path, title }) => (
         <li key={path} className="text-base text-primary">
@@ -71,8 +71,9 @@ const Navbar = () => {
         </li>
       ))}
     </ul>
-  )}
-</div>
+  </div>
+)}
+
     </header>
   )
 }
