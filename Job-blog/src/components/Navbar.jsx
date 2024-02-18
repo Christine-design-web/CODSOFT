@@ -41,7 +41,7 @@ const Navbar = () => {
         </ul>
 
 {/* sign up and login button */}
-        <div className="text-base text-primary font-medium space-x-5 lg:block ">
+        <div className="text-base text-primary font-medium space-x-2 lg:block ">
           <NavLink to="/login"className="py-2 px-5 border rounded bg-blue text-white">Log in</NavLink> {/* Corrected: Use NavLink for navigation */}
           <NavLink to="/sign-up" className="py-2 px-5 border rounded bg-blue text-white">Sign Up</NavLink> {/* Corrected: Use NavLink for navigation */}
           
