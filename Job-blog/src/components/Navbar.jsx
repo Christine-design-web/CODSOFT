@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import { NavLink } from 'react-router-dom';
-import { FaBarsStaggered } from "react-icons/fa6";
+import { FaBarsStaggered, FaXmark } from "react-icons/fa6";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -47,12 +47,34 @@ const Navbar = () => {
           
         </div>
         {/* mobile menu */}
-        <div>
-          <button>
-            <FaBarsStaggered/>
+        <div className='md:hidden block'>
+          <button onClick={handleMenuToggler}>
+            {
+              isMenuOpen ? <FaXmark className="w-5 h-5 text-primary"/> : <FaBarsStaggered className="w-5 h-5 text-primary"/>
+            }
           </button>
         </div>
       </nav>
+
+      {/* navitems for mobile */}
+      <div>
+        <ul>
+          {
+            navItems.map(({path, title}) => (
+              <li key={path} className="text-base text-primary">
+                <NavLink
+                    to={path}
+                    className={({ isActive }) => 
+                      isActive? "active" : ""
+                    }
+                  >
+                    {title}
+                  </NavLink>
+              </li>
+            ) )
+          }
+        </ul>
+      </div>
     </header>
   )
 }
