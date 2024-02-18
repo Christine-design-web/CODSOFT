@@ -23,7 +23,7 @@ const Navbar = () => {
         
         </a>
         {/* nav items for large devices */}
-        <ul className="md: flex gap-12">
+        <ul className="md:flex gap-12 hidden">
           {
             navItems.map(({path, title}) => (
               <li key={path} className="text-base text-primary">
