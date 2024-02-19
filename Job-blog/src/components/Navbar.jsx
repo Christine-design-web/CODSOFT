@@ -61,7 +61,7 @@ const Navbar = () => {
   <div className="px45 bg-black rounded-sm">
     <ul>
       {navItems.map(({ path, title }) => (
-        <li key={path} className="text-base text-primary">
+        <li key={path} className="text-base text-white first:text-white py-2">
           <NavLink
             to={path}
             className={({ isActive }) => (isActive ? "active" : "")}
