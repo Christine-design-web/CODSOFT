@@ -8,7 +8,7 @@ export default {
     extend: {
       colors: {
         "primary": "#141414",
-        "blue": "#35752E",
+        "blue": "#3B82F6",
         "purple": "#8A3FFC", // Example of adding a new color
         "white": "#fff",
        
