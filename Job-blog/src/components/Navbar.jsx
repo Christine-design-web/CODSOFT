@@ -58,7 +58,7 @@ const Navbar = () => {
 
       {/* navitems for mobile */}
       {isMenuOpen && (
-  <div className="px-5 bg-black rounded-sm">
+  <div className="px45 bg-black rounded-sm">
     <ul>
       {navItems.map(({ path, title }) => (
         <li key={path} className="text-base text-primary">
