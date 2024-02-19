@@ -7,8 +7,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        "primary": "#141414",
-        "blue": "#35752E"
+        "bg-primary": "#141414",
+        "blue": "#35752E",
+        "purple": "#8A3FFC", // Example of adding a new color
+       
       }
     },
   },
