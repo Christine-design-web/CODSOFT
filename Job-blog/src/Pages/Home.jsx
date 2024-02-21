@@ -6,6 +6,7 @@ const Home = () => {
     setQuery(event.target.value);
     // console.log(event.target.value);
   };
+  console.log(query)
   return (
    <div>
     <Banner query={query} handleInputChange = {handleInputChange}/>
