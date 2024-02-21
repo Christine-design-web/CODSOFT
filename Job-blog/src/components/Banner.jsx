@@ -1,15 +1,9 @@
 import React, { useState } from 'react';
 import { FiSearch } from 'react-icons/fi';
 
-const Banner = () => {
-  const [query, setQuery] = useState("");
-
-  const handleInputChange = (event) => {
-    setQuery(event.target.value);
-    console.log(event.target.value);
-  };
-
-  console.log(query);
+const Banner = ({query,handleInputChange}) => {
+ 
+//   console.log(query)
 
   return (
     <div className="max-w-screen-2xl container mx-auto xl:px-24 md:py-20 py-14">
