@@ -1,7 +1,8 @@
 import React, {useEffect, useState} from "react"
 import Banner from "../components/Banner"
-import Jobs from "./Jobs"
 import Card from "../components/Card"
+import Jobs from "./Jobs"
+
 const Home = () => {
   const[selectedCategory,setSelectedCategory] = useState(null);
   const [jobs,setJobs] = useState([]);
