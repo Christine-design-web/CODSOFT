@@ -77,11 +77,11 @@
       "minPrice": "80",
       "maxPrice": "120",
       "salaryType": "Yearly",
-      "jobLocation": "Boston",
+      "jobLocation": "Europe",
       "postingDate": "2024-02-05",
       "experienceLevel": "Intership",
       "employmentType": "Temporary",
-      "description": "Mollit in laborum tempor Lorem incididunt irure. Aute eu ex ad sunt. Pariatur sint culpa do incididunt eiusmod eiusmod culpa. laborum tempor Lorem incididunt."
+      "description": "Trainline is seeking a DevOps Engineer Intern to join our innovative team. As an intern, you will work closely with our DevOps engineers to support the development, deployment, and maintenance of our infrastructure and services. This internship offers a unique opportunity to gain hands-on experience in a dynamic and fast-paced environment."
     },
     {
       "id": 7,
@@ -95,7 +95,7 @@
       "postingDate": "2023-11-05",
       "experienceLevel": "Any experience",
       "employmentType": "Full-time",
-      "description": "Mollit in laborum tempor Lorem incididunt irure. Aute eu ex ad sunt. Pariatur sint culpa do incididunt eiusmod eiusmod culpa. laborum tempor Lorem incididunt."
+      "description": "Techno Phones is seeking a talented and passionate Software Engineer to join our dynamic team. As a Software Engineer, you will play a key role in designing, developing, and maintaining software solutions for Techno Phones' mobile devices. You will work closely with cross-functional teams to deliver high-quality software that meets the needs of our customers and drives the success of our products."
     },
     {
       "id": 8,
@@ -106,10 +106,10 @@
       "maxPrice": "50",
       "salaryType": "Yearly",
       "jobLocation": "San Francisco",
-      "postingDate": "2023-10-28",
+      "postingDate": "2023-12-28",
       "experienceLevel": "Internship",
       "employmentType": "Temporary",
-      "description": "Mollit in laborum tempor Lorem incididunt irure. Aute eu ex ad sunt. Pariatur sint culpa do incididunt eiusmod eiusmod culpa. laborum tempor Lorem incididunt."
+      "description": "Microsoft is seeking a talented and motivated Web Developer to join our dynamic team. As a Web Developer at Microsoft, you will be responsible for designing, developing, and maintaining high-quality web applications and services. You will work closely with cross-functional teams to deliver innovative solutions that meet customer needs and drive business growth."
     },
     {
       "id": 9,
@@ -123,7 +123,7 @@
       "postingDate": "2023-10-28",
       "experienceLevel": "Any experience",
       "employmentType": "Full-time", 
-      "description": "Mollit in laborum tempor Lorem incididunt irure. Aute eu ex ad sunt. Pariatur sint culpa do incididunt eiusmod eiusmod culpa. laborum tempor Lorem incididunt."
+      "description": "Google is seeking a talented and experienced Data Scientist to join our team. As a Data Scientist at Google, you will work on complex data problems and help drive key business decisions. You will collaborate with cross-functional teams to design, develop, and deploy machine learning models and data-driven solutions."
     },
     {
       "id": 10,
@@ -134,10 +134,10 @@
       "maxPrice": "50",
       "salaryType": "Monthly",
       "jobLocation": "London",
-      "postingDate": "2023-10-05",
+      "postingDate": "2023-12-05",
       "experienceLevel": "Work remotely",
       "employmentType": "Part-time",
-      "description": "Mollit in laborum tempor Lorem incididunt irure. Aute eu ex ad sunt. Pariatur sint culpa do incididunt eiusmod eiusmod culpa. laborum tempor Lorem incididunt."
+      "description": "Join Adobe, a global leader in digital media and marketing solutions. Adobe's innovative software products empower individuals and businesses to create, deliver, and optimize compelling content and experiences across digital channels.."
     },
     {
       "id": 11,
@@ -148,10 +148,10 @@
       "maxPrice": "75",
       "salaryType": "Yearly",
       "jobLocation": "London",
-      "postingDate": "2023-10-28",
+      "postingDate": "2024-02-18",
       "experienceLevel": "Intership",
       "employmentType": "Full-time",
-      "description": "Mollit in laborum tempor Lorem incididunt irure. Aute eu ex ad sunt. Pariatur sint culpa do incididunt eiusmod eiusmod culpa. laborum tempor Lorem incididunt."
+      "description": "We are seeking a highly motivated AI Research Intern to join our research team. This internship offers a unique opportunity to work alongside experienced AI researchers and engineers on challenging and impactful projects, Develop and implement algorithms and models to solve complex AI problems."
     },
     {
       "id": 12,
