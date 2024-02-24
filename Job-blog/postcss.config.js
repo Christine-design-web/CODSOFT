@@ -4,7 +4,7 @@ export default {
     autoprefixer: {},
   },
 }
-// postcss.config.js
+
 module.exports = {
   plugins: [
     require('tailwindcss'),
