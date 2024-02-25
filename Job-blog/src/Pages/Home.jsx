@@ -45,16 +45,16 @@ const Home = () => {
       if(query){
         filteredJobs=filteredItems;
       }
-      //category filtering
-      if(selectedCategory){
-        filteredJobs=filteredJobs.filter((jobLocation, maxPrice, experienceLevel, salaryType, postingDate) => (
-          jobLocation.toLowerCase() === selected.toLowerCase() ||
-          parseInt(maxPrice) === parseInt(selected) ||
-          salaryType.toLowerCase() === selected.toLowerCase() ||
-          employmentType.toLowerCase() === selected.toLowerCase()
+      if (selectedCategory) {
+        filteredJobs = filteredJobs.filter((job) => (
+            job.jobLocation.toLowerCase() === selected.toLowerCase() ||
+            parseInt(job.maxPrice) === parseInt(selected) ||
+            job.salaryType.toLowerCase() === selected.toLowerCase() ||
+            job.employmentType.toLowerCase() === selected.toLowerCase()
         ));
         console.log(filteredJobs);
-      }
+    }
+    
      
       return filteredJobs.map((data, i) => <Card key={i} data={data}/>)
     }
