@@ -9,7 +9,7 @@ const Home = () => {
   const [jobs,setJobs] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 4;
+  const itemsPerPage = 12;
   
   useEffect(()=> {
     setIsLoading(true);
