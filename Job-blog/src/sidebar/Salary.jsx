@@ -7,8 +7,8 @@ const Salary = ({handleChange, handleClick}) => {
         <h4 className="text-lg font-medium mb-2">Salary</h4>
         <div className="flex flex-wrap">
             <Button onClickHandler={handleClick} value="" title="Hourly"/>
-            <Button onClickHandler={handleClick} value="Monthly" title="Monthly" className="pr-2"/>
-            <Button onClickHandler={handleClick} value="Yearly" title="Yearly" className="pr-2"/>
+            <Button onClickHandler={handleClick} value="Monthly" title="Monthly" className="pr-4"/>
+            <Button onClickHandler={handleClick} value="Yearly" title="Yearly" className="pr-4"/>
         </div>
     </div>
   )
