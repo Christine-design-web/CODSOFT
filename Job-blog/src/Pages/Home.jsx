@@ -9,7 +9,7 @@ const Home = () => {
   const [jobs,setJobs] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 4;
+  const itemsPerPage = 6;
   
   useEffect(()=> {
     setIsLoading(true);
@@ -108,7 +108,7 @@ const Home = () => {
        <div className="col-span-2 bg-white p-4 rounded-sm"> 
          {
           isLoading ? (<p>Loading....</p>) : result.length > 0 ? (<Jobs result={result}/>) : <>
-          <h3 className="font-bold">{result.length} Jobs</h3>
+          <h3 className="text-lg font-bold mb-2">{result.length} Jobs</h3>
           <p>No jobs found!</p>
           </>
          } 
@@ -117,9 +117,9 @@ const Home = () => {
          {
           result.length > 0 ? (
             <div className="flex justify-center mt-4 space-x-8">
-              <button onClick={prevPage}>Previous</button>
+              <button onClick={prevPage} disabled={currentPage ===} className="hover:underline">Previous</button>
               <span>page {currentPage} of {Math.ceil(filteredItems.length / itemsPerPage)}</span>
-              <button onClick={nextPage} disabled={currentPage === Math.ceil(filteredItems.length > itemsPerPage)}>Next</button>
+              <button onClick={nextPage} disabled={currentPage === Math.ceil(filteredItems.length / itemsPerPage)} className="hover:underline">Next</button>
 
             </div>
            ) : ""
