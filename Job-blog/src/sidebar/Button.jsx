@@ -1,10 +1,13 @@
 import React from 'react'
 
-const Button = ({onClickHandler, value, title}) => {
+const Button = ({ onClickHandler, value, title }) => {
   return (
-    <div onClick={onClickHandler} value={value} className={`px-4 py-1 border text-base hover:bg-blue hover:text-white `}>
-        {title}
-    </div>
+    <button
+      className="bg-white hover:bg-blue text-primary font-bold py-2 px-4 pr-3 rounded mr-2"
+      onClick={() => onClickHandler(value)}
+    >
+      {title}
+    </button>
   )
 }
 

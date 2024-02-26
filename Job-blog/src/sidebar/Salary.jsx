@@ -5,10 +5,10 @@ const Salary = ({handleChange, handleClick}) => {
   return (
     <div>
         <h4 className="text-lg font-medium mb-2">Salary</h4>
-        <div>
+        <div className="flex flex-wrap">
             <Button onClickHandler={handleClick} value="" title="Hourly"/>
-            <Button onClickHandler={handleClick} value="monthly" title="Monthly"/>
-            <Button onClickHandler={handleClick} value="" title="Hourly"/>
+            <Button onClickHandler={handleClick} value="Monthly" title="Monthly" className="pr-2"/>
+            <Button onClickHandler={handleClick} value="Yearly" title="Yearly" className="pr-2"/>
         </div>
     </div>
   )
