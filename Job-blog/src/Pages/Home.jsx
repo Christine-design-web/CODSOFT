@@ -3,6 +3,7 @@ import Banner from "../components/Banner"
 import Card from "../components/Card"
 import Jobs from "./Jobs"
 import Sidebar from "../sidebar/Sidebar"
+import Button from "../sidebar/Button"
 
 const Home = () => {
   const[selectedCategory,setSelectedCategory] = useState(null);
@@ -41,6 +42,7 @@ const Home = () => {
     const handleClick=(event) =>{
       setSelectedCategory(event.target.value)
     }
+   
 
     // calculate the index range
     const calculatePageRange = () => {
@@ -112,7 +114,7 @@ const Home = () => {
           <p>No jobs found!</p>
           </>
          } 
-
+    
          {/* pagination here */}
          {
           result.length > 0 ? (
