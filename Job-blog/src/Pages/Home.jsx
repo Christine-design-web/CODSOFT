@@ -34,7 +34,7 @@ const Home = () => {
     // console.log(filteredItems)
 
     //Radio based button  filtering
-    const handleChange=(event) =>{
+    const handleChange = (event) =>{
       setSelectedCategory(event.target.value)
 
     }
