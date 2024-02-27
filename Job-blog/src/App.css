@@ -159,6 +159,16 @@ li {
   border-color: #f7f7f7;
 }
 
+.Button{
+  background-color: #3575E2;
+  color: white;
+  border: #323232;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-right: 6px;
+  cursor: pointer;
+}
+
 
 
 /* create a job page */

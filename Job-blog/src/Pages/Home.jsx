@@ -75,7 +75,7 @@ const Home = () => {
               job.jobTitle.toLowerCase().includes(query.toLowerCase())
           );
       }
-  
+      
       // Filter by selected category
       if (selected) {
           filteredJobs = filteredJobs.filter(job =>
