@@ -11,7 +11,7 @@ const JobPostingData = (handleChange) => {
     // console.log(twentyFourHoursAgo)
     //convert date to string
 
-    const twentyFourHoursAgo = twentyFourHoursAgo.toISOString().slice(0,10);
+    const twentyFourHoursAgoDate = twentyFourHoursAgo.toISOString().slice(0,10);
     console.log(twentyFourHoursAgo)
   return (
     <div>
