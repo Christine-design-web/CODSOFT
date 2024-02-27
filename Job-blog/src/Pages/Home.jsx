@@ -5,6 +5,7 @@ import Jobs from "./Jobs"
 import Sidebar from "../sidebar/Sidebar"
 import Button from "../sidebar/Button"
 
+
 const Home = () => {
   const[selectedCategory,setSelectedCategory] = useState(null);
   const [jobs,setJobs] = useState([]);

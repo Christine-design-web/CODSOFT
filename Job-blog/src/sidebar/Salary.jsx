@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from './Button'
+import InputField from '../components/InputField'
 
 const Salary = ({handleChange, handleClick}) => {
   return (
@@ -11,18 +12,17 @@ const Salary = ({handleChange, handleClick}) => {
             <Button onClickHandler={handleClick} value="Yearly" title="Yearly" className="pr-4"/>
         </div>
 
-        {/* <div>
+        <div>
         <label className="sidebar-label-container">
             <input type="radio" name="test" id="test" value="" onChange={handleChange}/>
             <span className="checkmark"></span>All
         </label>
 
-        <InputField handleChange={handleChange} value="london" title="London" name="test2"/>
-        <InputField handleChange={handleChange} value="kenya" title="Kenya" name="test"/>
-        <InputField handleChange={handleChange} value="canada" title="Canada" name="test"/>
-        <InputField handleChange={handleChange} value="europe" title="Europe" name="test"/>
-        <InputField handleChange={handleChange} value="dubai" title="Dubai" name="test"/>
-        </div> */}
+        <InputField handleChange={handleChange} value={50} title="< 50000k" name="test2"/>
+        <InputField handleChange={handleChange} value={80} title="< 80000k" name="test2"/>
+        <InputField handleChange={handleChange} value={150} title="< 150000k" name="test2"/>
+        <InputField handleChange={handleChange} value={200} title="< 200000k" name="test2"/>
+        </div>
     </div>
   )
 }
