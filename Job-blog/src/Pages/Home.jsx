@@ -101,8 +101,14 @@ if (selected) {
       experienceLevel,
     
     }) =>
-    postingDate >= selected
-  )
+    jobLocation.toLowerCase() === selected.toLowerCase() ||
+    parseInt(maxPrice) <= parseInt(selected) ||
+    postingDate >= selected ||
+    salaryType.toLowerCase() === selected.toLowerCase() ||
+    employmentType.toLowerCase() === selected.toLowerCase()
+    
+  );
+  console.log(filteredJobs)
 } 
       // Slice the data based on current page
       const { startIndex, endIndex } = calculatePageRange();
