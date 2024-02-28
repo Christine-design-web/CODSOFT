@@ -8,11 +8,11 @@ const WorkExperience = ({handleChange}) => {
 
      <div>
 
-        <label className="sidebar-label-container">
+        {/* <label className="sidebar-label-container">
             <input type="radio" name="test" id="test" value="" onChange={handleChange}/>
             <span className="checkmark"></span>Any experience
-        </label>
-
+        </label> */}
+         <InputField handleChange={handleChange} value="Any experience" title="Any experience" name="test"/>
         <InputField handleChange={handleChange} value="Internship" title="Internship" name="test"/>
         <InputField handleChange={handleChange} value="Work remotely" title="Work remotely" name="test"/>
         
