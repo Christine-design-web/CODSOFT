@@ -65,7 +65,7 @@
       "salaryType": "Yearly",
       "jobLocation": "Kenya",
       "postingDate": "2024-02-28",
-      "experienceLevel": "Intership",
+      "experienceLevel": "Internship",
       "employmentType": "Full-time",
       "description": "Implementing user interfaces designed by UI/UX designers, ensuring they are responsive, accessible, and visually appealing, Developing web applications using modern frontend technologies such as HTML, CSS, and JavaScript frameworks/libraries like React, Angular, or Vue.js."
     },
@@ -79,7 +79,7 @@
       "salaryType": "Hourly",
       "jobLocation": "Europe",
       "postingDate": "2024-02-05",
-      "experienceLevel": "Intership",
+      "experienceLevel": "Internship",
       "employmentType": "Temporary",
       "description": "Trainline is seeking a DevOps Engineer Intern to join our innovative team. As an intern, you will work closely with our DevOps engineers to support the development, deployment, and maintenance of our infrastructure and services. This internship offers a unique opportunity to gain hands-on experience in a dynamic and fast-paced environment."
     },
@@ -149,7 +149,7 @@
       "salaryType": "Yearly",
       "jobLocation": "London",
       "postingDate": "2024-02-18",
-      "experienceLevel": "Intership",
+      "experienceLevel": "Internship",
       "employmentType": "Full-time",
       "description": "We are seeking a highly motivated AI Research Intern to join our research team. This internship offers a unique opportunity to work alongside experienced AI researchers and engineers on challenging and impactful projects, Develop and implement algorithms and models to solve complex AI problems."
     },
@@ -163,7 +163,7 @@
       "salaryType": "Yearly",
       "jobLocation": "Dubai",
       "postingDate": "2024-01-05",
-      "experienceLevel": "Intership",
+      "experienceLevel": "Internship",
       "employmentType": "Temporary",
       "description": " Experience with tools like Terraform, CloudFormation, or Ansible to automate the provisioning of infrastructure.Familiarity with cloud platforms such as AWS, Azure, or Google Cloud Platform, and the ability to deploy and manage applications on these platforms."
     }
