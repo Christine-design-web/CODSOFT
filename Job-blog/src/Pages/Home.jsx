@@ -4,6 +4,7 @@ import Card from "../components/Card"
 import Jobs from "./Jobs"
 import Sidebar from "../sidebar/Sidebar"
 import Button from "../sidebar/Button"
+import Newsletter from "../components/Newsletter"
 
 
 const Home = () => {
@@ -156,7 +157,7 @@ if (selected) {
        </div>
 
        {/* rightside */}
-       <div className="bg-white p-4 rounded">right</div>
+       <div className="bg-white p-4 rounded"><Newsletter/></div>
      
     </div>
    </div>
