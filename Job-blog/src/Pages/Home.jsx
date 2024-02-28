@@ -107,7 +107,8 @@ if (selected) {
     salaryType.toLowerCase() === selected.toLowerCase() ||
     experienceLevel.toLowerCase() === selected.toLowerCase() ||
     employmentType.toLowerCase() === selected.toLowerCase()
-    
+
+
   );
   console.log(filteredJobs)
 } 
