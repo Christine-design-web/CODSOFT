@@ -78,15 +78,32 @@ const Home = () => {
       }
       
       // Filter by selected category
-      if (selected) {
-          filteredJobs = filteredJobs.filter(job =>
-              (job.jobLocation && job.jobLocation.toLowerCase() === selected.toLowerCase()) ||
-              (job.maxPrice && parseInt(job.maxPrice) === parseInt(selected)) ||
-              (job.salaryType && job.salaryType.toLowerCase() === selected.toLowerCase()) ||
-              (job.employmentType && job.employmentType.toLowerCase() === selected.toLowerCase())
-          );
-      }
+      // if (selected) {
+      //     filteredJobs = filteredJobs.filter(job =>
+      //         (job.jobLocation && job.jobLocation.toLowerCase() === selected.toLowerCase()) ||
+      //         (job.maxPrice && parseInt(job.maxPrice) === parseInt(selected)) ||
+      //         (job.salaryType && job.salaryType.toLowerCase() === selected.toLowerCase()) ||
+      //         (job.employmentType && job.employmentType.toLowerCase() === selected.toLowerCase())
+      //     );
+      // }
   
+
+//posting date review
+
+if (selected) {
+  filteredJobs = filteredJobs.filter(
+    ({
+      jobLocation,
+      maxPrice,
+      salaryType,
+      employmentType,
+      postingDate,
+      experienceLevel,
+    
+    }) =>
+    postingDate >= selected
+  )
+} 
       // Slice the data based on current page
       const { startIndex, endIndex } = calculatePageRange();
       filteredJobs = filteredJobs.slice(startIndex, endIndex);
