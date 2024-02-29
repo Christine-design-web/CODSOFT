@@ -102,12 +102,12 @@ if (selected) {
       experienceLevel,
     
     }) =>
-    jobLocation.toLowerCase() === selected.toLowerCase() ||
-    parseInt(maxPrice) <= parseInt(selected) ||
     postingDate >= selected ||
-    salaryType.toLowerCase() === selected.toLowerCase() ||
-    experienceLevel.toLowerCase() === selected.toLowerCase() ||
-    employmentType.toLowerCase() === selected.toLowerCase()
+    (jobLocation && jobLocation.toLowerCase() === selected.toLowerCase()) ||
+    (maxPrice && parseInt(maxPrice) === parseInt(selected)) ||
+    (salaryType && salaryType.toLowerCase() === selected.toLowerCase()) ||
+    (employmentType && employmentType.toLowerCase() === selected.toLowerCase()) ||
+    (experienceLevel && experienceLevel.toLowerCase() === selected.toLowerCase())
 
 
   );
