@@ -154,7 +154,7 @@ if (selected) {
            ) : ""
          }
        
-       </div>
+       </div> 
 
        {/* rightside */}
        <div className="bg-white p-4 rounded"><Newsletter/></div>
